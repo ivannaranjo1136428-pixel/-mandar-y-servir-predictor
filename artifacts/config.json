@@ -1,0 +1,15 @@
+{
+  "feature_cols": [
+    "Dia_Semana_Registro",
+    "Ruta_ID",
+    "Servicio_Modelo"
+  ],
+  "threshold": 0.5,
+  "model_name": "Regresión logística",
+  "calendar_predictors": [
+    "Dia_Semana_Registro"
+  ],
+  "holiday_predictor_included": false,
+  "service_strategy": "Servicio histórico más frecuente de la ruta",
+  "target_definition": "Promesa_Cumplida = 1 si Días Entrega <= Dias_Estandar_Auditado"
+}
